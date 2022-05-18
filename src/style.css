@@ -1,1 +1,30 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+@jngimport "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background: green;
+}
+.card {
+  display: flex;
+  background: white;
+  margin: auto;
+  height: 380px;
+  width: 200px;
+  padding: 20px;
+  border-radius: 20px;
+  align-content: center;
+  justify-content: space-between;
+}
+.numero {
+  align-self: center;
+  bottom: 20px;
+  font-size: 75px;
+}
+.top {
+  font-size: 75px;
+}
+.bottom {
+  display: flex;
+  align-self: flex-end;
+  transform: rotate(180deg);
+  bottom: 20px;
+  font-size: 75px;
+}
